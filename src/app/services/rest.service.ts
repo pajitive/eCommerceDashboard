@@ -26,7 +26,7 @@ export class RestService {
     return this.http.post(this.baseUrl + endpoint,data);
   }
 
-  delete(endPointg: string, params?: any) {
+  delete(endPointg: string, params?: any){
     const p = [];
     let newParam: any;
     if (params) {
